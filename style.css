@@ -1,63 +1,41 @@
 @charset "UTF-8";
 
-:root { 
-    --cor0: rgba(24, 23, 23, 0.781);
-    --cor1: white; 
-    --cor2: rgb(230, 40, 40); 
-    --cor3: grey;  
-
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
+html, body { 
+    min-height: 100vh;
+    background-color: aquamarine;
 }
-
-body {
-    background-color: var(--cor1);
-    font-family: var(--fonte-padrao);
-}
-
 
 header {
-    background-color:var(--cor0);
-    min-height:15px;
-    text-align:center;
-    padding-top:5px;
-}
-
-header > h1 {
+    background-color: black;
     color: white;
-    font-family: var(--fonte-padrao);
-
+    text-align: center;
 }
 
-header strong { 
-    color: var(--cor1);
-    font-weight: bold;
-    padding: 2px 6px;
-}
-
-nav {
-    text-align:right;
-    border: 10px;
-    background-color: var(--cor2);
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363)
-
+header > nav {
+    background-color: rgb(209, 39, 39);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: right;
 }
 
 nav > a {
-    color: var(--cor1);
-    padding: 20px;
-    border-radius: 15px;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-    transition-duration: .5s;
 }
 
-nav > a:hover {
-    background-color: var(--cor3);
-    color: var(--cor5);
+section {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
+section.normal {
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 
