@@ -1,16 +1,63 @@
 @charset "UTF-8";
 
-@font-face{
-    font-family: Arial, Helvetica, sans-serif;
-    src: ;
-    font-weight: normal;
-
-}   
-
 :root { 
-    --cor0: black;
+    --cor0: rgba(24, 23, 23, 0.781);
     --cor1: white; 
     --cor2: rgb(230, 40, 40); 
     --cor3: grey;  
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
 }
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+
+header {
+    background-color:var(--cor0);
+    min-height:15px;
+    text-align:center;
+    padding-top:5px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-padrao);
+
+}
+
+header strong { 
+    color: var(--cor1);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+nav {
+    text-align:right;
+    border: 10px;
+    background-color: var(--cor2);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363)
+
+}
+
+nav > a {
+    color: var(--cor1);
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+
+
 
