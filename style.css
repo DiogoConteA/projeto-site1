@@ -37,5 +37,9 @@ section.normal {
     padding-bottom: 50px;
 }
 
+div.box{
 
+    display: inline-block;
+}
+            
 
