@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body{
+    max-width: 940px;
+}
+
 strong { 
     background-color: rgb(253, 43, 43);
     border-radius: 25px;
@@ -23,10 +27,6 @@ header{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-}
-
-body{
-    
 }
 
 .container{ 
