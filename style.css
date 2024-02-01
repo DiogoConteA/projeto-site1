@@ -8,10 +8,6 @@
     box-sizing: border-box;
 }
 
-body{
-    max-width: 940px;
-}
-
 strong { 
     background-color: rgb(253, 43, 43);
     border-radius: 25px;
@@ -78,6 +74,7 @@ section#img01{
     background-repeat:no-repeat;
     padding-top: 100px;
     padding-bottom: 100px;
+
 }
 
 section > h1{
@@ -168,6 +165,7 @@ section#img02{
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: right;
+
 }
 
 section#img02 p{
